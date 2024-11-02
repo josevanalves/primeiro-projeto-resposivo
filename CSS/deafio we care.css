@@ -1,0 +1,138 @@
+* {
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: Montserrat;
+  }
+
+  .meu-link{
+     color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    
+  }
+  header{
+     margin-top: 45px;
+     margin-left: 45px;
+    word-spacing: 25px;
+  }
+  .button-1{
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px ;
+    background: #665AE1;
+    cursor: pointer;
+    color: #FFFFFF;
+    line-height:29px;
+    font-size:24px;
+  }
+   img {
+        width: 568px;
+        height: 500px;
+        margin: 132px 0 0 100px ;     
+   }
+  section{
+       display: inline-block;
+       margin-left: 80px;
+  
+}
+  h1{ 
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    line-height:  121.9px;
+    color: #515151;
+    width: 513px;
+    Height:122px;
+  }
+  h2 {
+
+      height: 71px;
+      font-size: 58px;
+      font-weight: 500;
+      text-align: left;
+      color: #515151;
+
+  }
+
+  p {
+    width: 515px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    color: #848484;
+
+  }
+
+  .button-2{
+         width: 239px;
+         height: 64px;
+         gap: 0px;
+         border-radius: 22px;
+         opacity: 0px;
+         background: #ADFF00;
+         font-size: 28px;
+         font-weight: 700;
+         line-height: 34.13px;
+         text-align: center;
+         cursor: pointer;
+         margin-top: 45px;
+  }
+  @media screen  and (max-width:900px){
+       img{
+        width: 354px;
+        height: 317px;
+        top: -1218px;
+        left: -1717px;
+        gap: 0px;
+        opacity: 0px;
+       margin: 135px 0 0 18px;
+        
+       }
+       header{
+          display: none;
+       }
+
+       h1{
+      font-size: 50px;
+      font-weight: 900;
+      line-height: 60.95px;
+      text-align: left;
+      color: #515151;
+      width: 262px;
+      height: 52px;
+       }
+      h2{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: left;
+        color: #515151;
+        width: 232px;
+        height: 37px;
+      }
+
+      p {
+         display: none;
+      }
+     button{
+       border: none;
+       width: 100px;
+       height:64px;
+       margin: 10px 0px 0;
+       border-radius: 22px;
+     }
+
+
+    }
+
+
+
+
+
+
+  
